@@ -8,6 +8,23 @@ body {
   position: relative;
 }
 
+.arg-underline {
+  color: #75AADB;
+  text-decoration: none;
+  background-color: transparent; }
+  .arg-underline:hover {
+    transition: .3s all ease;
+    color: #456C80;
+    text-decoration: none; }
+
+.arg-underline-body {
+      color: #75AADB;
+      text-decoration: none;
+      background-color: transparent; }
+      .arg-underline-body:hover {
+        transition: .3s all ease;
+        color: white;
+        text-decoration: none; }
 
 body:before {
   content: "";
@@ -1137,6 +1154,12 @@ a, a:hover {
 .heading-h2-red {
   font-size: 40px;
   color: #D63447;
+  font-weight: 1000;
+}
+
+.heading-h2-blue {
+  font-size: 40px;
+  color: #75AADB;
   font-weight: 1000;
 }
 
